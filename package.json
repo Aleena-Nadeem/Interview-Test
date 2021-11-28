@@ -1,0 +1,23 @@
+{
+  "name": "interviewtest",
+  "version": "1.0.0",
+  "description": "1. Make a new array of objects called **productNamePrice** from the products array; it should contain only `productName` and `productPrice` 2. You'll notice that some products have the same name, make a function called **leastPriceWithThisName** which will take one parameter (name). It should return the product with least price which has the parameter `name` passed to the function  \t- function format -> ```leastPriceWithThisName(name)``` 3. Extract the total quantity of items from the carts array. 4. Extract a cart item with the least price and a cart item with the max price. 5. Calculate the total price of the cart, keep in mind any discounts applied to a cart item. Note:",
+  "main": "cart.interface.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^3.5.0",
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.1",
+    "express-jwt": "^6.1.0",
+    "graphql": "^15.7.2",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.7.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.12.0-alpha.1"
+  }
+}
