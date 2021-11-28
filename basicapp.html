@@ -1,0 +1,21 @@
+<html>
+<script src= "https://ajax.googleapis.com/ajax/libs/angularjs/1.2.1/angular.min.js"></script>
+
+<body ng-app="myApp" ng-controller="check">
+    <button id = '1' ng-click = "count(1)" >1 </button>
+    <label> Total Count : {{counter}} </label>
+
+    <div>
+    var app = angular.module("myApp", []);
+    app.controller('check', function ($scope) {
+        $scope.counter = 0;
+        $scope.count = function (inc) {
+            $scope.counter += inc;
+        };
+    });
+
+</div>
+
+    </body>
+</html>
+
